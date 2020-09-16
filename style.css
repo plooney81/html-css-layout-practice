@@ -1,0 +1,25 @@
+:root{
+    --main-pink: rgba(233, 108, 108, 0.4);
+    --another-pink: rgb(232, 121, 109);
+    --blue-stuff: rgb(80, 43, 229);
+}
+
+
+
+
+.navbar-custom {
+    background-color: white;
+    border: 1px solid var(--blue-stuff);
+    box-shadow: 1px 1px 5px var(--blue-stuff);
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text,
+.navbar-custom .nav-link,
+.navbar-custom .btn {
+    color: var(--blue-stuff);
+}
+
+body{
+    background-color: var(--main-pink);
+}
