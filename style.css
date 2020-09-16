@@ -7,6 +7,7 @@
     --main-pink: rgba(233, 108, 108, 0.4);
     --another-pink: rgb(232, 121, 109);
     --blue-stuff: rgb(80, 43, 229);
+    --some-orange: rgb(229, 135, 112);
 }
 
 
@@ -27,4 +28,14 @@
 
 body{
     background-color: var(--main-pink);
+}
+
+.btn{
+    font-size: 12px;
+    border: 1px solid var(--blue-stuff);
+    background-color: var(--another-pink);
+    box-shadow: 5px 0 var(--some-orange), 5px 5px var(--blue-stuff), 5px 5px var(--some-orange), 4px 5px var(--blue-stuff);
+    /* border-right-width: 5px; */
+    border-radius: 0;
+    
 }
